@@ -152,11 +152,11 @@ $db = $database->getConnection();
 
 $student = new Student($db);
 
-if ($db) {
-    echo "Подключение к базе данных успешно!";
-} else {
-    echo "Ошибка подключения к базе данных.";
-}
+//if ($db) {
+  //  echo "Подключение к базе данных успешно!";
+//} else {
+  //  echo "Ошибка подключения к базе данных.";
+//}
 
 $student->createTable();
 
