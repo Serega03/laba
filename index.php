@@ -217,7 +217,7 @@ echo "</table>";
 
 ?>
 
-<h1>Добавить студента</h1>
+<h1>Добавить школьника</h1>
 <form method="post" action="index.php">
     <label>ФИО:</label><br>
     <input type="text" name="full_name" required><br>
