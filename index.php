@@ -13,7 +13,7 @@ class Database {
     private $host = "mysql.railway.internal";
     private $db_name = "railway"; // Имя базы данных
     private $username = "root"; // Имя пользователя
-    private $password = "YcEjpyfnSmmOwkfXnWpZXpmvOzSUrIKv"; // Пароль
+    private $password = "VjGDJZEAZZfMXXAkPSwyVkigRrBfhiMb"; // Пароль
     public $conn;
 
     public function getConnection() {
